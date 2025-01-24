@@ -1,212 +1,104 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>For Blessy</title>	    
-        <link type="text/css" rel="stylesheet" href="./file/default.css">
-		<script type="text/javascript" src="./file/jquery.min.js"></script>
-		<script type="text/javascript" src="./file/jscex.min.js"></script>
-		<script type="text/javascript" src="./file/jscex-parser.js"></script>
-		<script type="text/javascript" src="./file/jscex-jit.js"></script>
-		<script type="text/javascript" src="./file/jscex-builderbase.min.js"></script>
-		<script type="text/javascript" src="./file/jscex-async.min.js"></script>
-		<script type="text/javascript" src="./file/jscex-async-powerpack.min.js"></script>
-		<script type="text/javascript" src="./file/functions.js" charset="utf-8"></script>
-		<script type="text/javascript" src="./file/love.js" charset="utf-8"></script>
-	    <style type="text/css">
-        </style>
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="https://kit.fontawesome.com/a14ae32021.js" crossorigin="anonymous"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>This one is for my Varchhu</title>
+
+<style type="text/css">
+@font-face {
+	font-family: digit;
+	src: url('digital-7_mono.ttf') format("truetype");
+}
+</style>
+<link href="css/default.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/garden.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+
 </head>
-    <body>
-        <div id="main">
-            <div id="error">本页面采用HTML5编辑，目前您的浏览器无法显示，请换成谷歌(<a href="http://www.google.cn/chrome/intl/zh-CN/landing_chrome.html?hl=zh-CN&brand=CHMI">Chrome</a>)或者火狐(<a href="http://firefox.com.cn/download/">Firefox</a>)浏览器，或者其他游览器的最新版本。</div>
-            <!-- <audio autoplay="autoplay" height="100" width="100"> -->
-                    <!-- <source src="renxi.mp3" type="audio/mp3" /> -->
-                    <!-- <embed height="100" width="100" src="renxi.mp3" /> -->
-            <!-- </audio> -->
-            <div id="wrap">
-                <div id="text">
-                    <div id="code"> <font color="#FF0000"> <span class="say">My Love</span><br>
-                      <span class="say">Blessy</span><br>
-                      <span class="say">You are my greatest blessing</span><br>
-                      <span class="say">Your smile lights my world</span><br>             
-                      <span class="say">With you, love feels infinite</span><br>
-                      <span class="say">Every moment with you matters</span><br>
-                      <span class="say">Forever grateful for your presence</span><br>
-                      <span class="say">You complete me so perfectly</span><br>
-                      <span class="say">Together, we are pure magic</span><br>
-                      <span class="say">My heart beats for you</span><br>
-                      <span class="say">Your love is my strength</span><br>
-                      <span class="say">Always and forever, my Blessy 💕</span><br>
-                      <span class="say"><span class="space"></span>-James</span> </font>
-                          <br />
-                          <br />
-                      </p>
-                    </div>
-                  </div>
-                <div id="clock-box">
-                    <span class="STYLE1"></span><font color="#33CC00">Darling i like you</font>
-<span class="STYLE1">Already...</span>
-                  <div id="clock"></div>
-              </div>
-                <canvas id="canvas" width="1100" height="680"></canvas>
-            </div>
-            
-        </div>
-    
-    <script>
-    </script>
 
-    <script>
-    (function(){
-        var canvas = $('#canvas');
-		
-        if (!canvas[0].getContext) {
-            $("#error").show();
-            return false;        }
+<body>
 
-        var width = canvas.width();
-        var height = canvas.height();        
-        canvas.attr("width", width);
-        canvas.attr("height", height);
-        var opts = {
-            seed: {
-                x: width / 2 - 20,
-                color: "rgb(190, 26, 37)",
-                scale: 2
-            },
-            branch: [
-                [535, 680, 570, 250, 500, 200, 30, 100, [
-                    [540, 500, 455, 417, 340, 400, 13, 100, [
-                        [450, 435, 434, 430, 394, 395, 2, 40]
-                    ]],
-                    [550, 445, 600, 356, 680, 345, 12, 100, [
-                        [578, 400, 648, 409, 661, 426, 3, 80]
-                    ]],
-                    [539, 281, 537, 248, 534, 217, 3, 40],
-                    [546, 397, 413, 247, 328, 244, 9, 80, [
-                        [427, 286, 383, 253, 371, 205, 2, 40],
-                        [498, 345, 435, 315, 395, 330, 4, 60]
-                    ]],
-                    [546, 357, 608, 252, 678, 221, 6, 100, [
-                        [590, 293, 646, 277, 648, 271, 2, 80]
-                    ]]
-                ]] 
-            ],
-            bloom: {
-                num: 700,
-                width: 1080,
-                height: 650,
-            },
-            footer: {
-                width: 1200,
-                height: 5,
-                speed: 10,
-            }
-        }
+<div id="mainDiv">
+	<div id="content">
+		<div id="code">
+			<span class="comments">/**</span><br />
+			<span class="space"/><span class="comments">*THE CODE OF LOVE</span><br />
+			<span class="space"/><span class="comments">*/</span><br />
+			Hey Girl !<br />
+			Do you remember the day we first met?<br />
+			<span class="comments">// The ET-LAB Friday. </span><br />
+			Since that day a spark begun;<br />
+			<span class="comments">// Your face Your Voice Your Words.</span><br />
+			Your everything got imprinted in my heart;<br />
+			As the time went on;<br />
+			The Bond grew stronger and stronger;<br />
+			Journey from Infatuation to Love;<br />
+			We have traveled a long way together;<br />
+			There have been fights ;<br />
+			<span class="comments">// And I'm sure there will be more.</span><br />
+			But our Bond will always grow back Stronger;<br />
+			<br>
+			<br>
+			All I want to say is:<br />
+			Baby, I will love you forever;<br />
+			<br>
+			<br>
+			Now If you want to hug me you can touch the heart below<br />
+			<br>
+			<span id="heartspan">
+			<a href="image.jpg"><i class="fas fa-heart" id="icon"></i></a>
+			</span>
+		</div>
+		<div id="loveHeart">
+			<canvas id="garden"></canvas>
+			<div id="words">
+				<div id="messages">
+					वर्षा ऋतु FOREVER
+					<div id="elapseClock"></div>
+				</div>
+				<div id="loveu">
+					I LOVE YOU SO MUCH<br/>
+					<div class="signature">- RITVIK</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
-        var tree = new Tree(canvas[0], width, height, opts);
-        var seed = tree.seed;
-        var foot = tree.footer;
-        var hold = 1;
+<script type="text/javascript">
+var offsetX = $("#loveHeart").width() / 2;
+var offsetY = $("#loveHeart").height() / 2 - 55;
+var together = new Date();
+together.setFullYear(2016, 8, 5);
+together.setHours(16);
+together.setMinutes(30);
+together.setSeconds(0);
+together.setMilliseconds(0);
 
-        canvas.click(function(e) {
-            var offset = canvas.offset(), x, y;
-            x = e.pageX - offset.left;
-            y = e.pageY - offset.top;
-            if (seed.hover(x, y)) {
-                hold = 0; 
-                canvas.unbind("click");
-                canvas.unbind("mousemove");
-                canvas.removeClass('hand');
-            }
-        }).mousemove(function(e){
-            var offset = canvas.offset(), x, y;
-            x = e.pageX - offset.left;
-            y = e.pageY - offset.top;
-            canvas.toggleClass('hand', seed.hover(x, y));
-        });
+if (!document.createElement('canvas').getContext) {
+	var msg = document.createElement("div");
+	msg.id = "errorMsg";
+	msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+"; 
+	document.body.appendChild(msg);
+	$("#code").css("display", "none")
+	$("#copyright").css("position", "absolute");
+	$("#copyright").css("bottom", "10px");
+	document.execCommand("stop");
+} else {
+	setTimeout(function () {
+		startHeartAnimation();
+	}, 5000);
 
-        var seedAnimate = eval(Jscex.compile("async", function () {
-            seed.draw();
-            while (hold) {
-                $await(Jscex.Async.sleep(10));
-            }
-            while (seed.canScale()) {
-                seed.scale(0.95);
-                $await(Jscex.Async.sleep(10));
-            }
-            while (seed.canMove()) {
-                seed.move(0, 2);
-                foot.draw();
-                $await(Jscex.Async.sleep(10));
-            }
-        }));
+	timeElapse(together);
+	setInterval(function () {
+		timeElapse(together);
+	}, 500);
 
-        var growAnimate = eval(Jscex.compile("async", function () {
-            do {
-    	        tree.grow();
-                $await(Jscex.Async.sleep(10));
-            } while (tree.canGrow());
-        }));
-
-        var flowAnimate = eval(Jscex.compile("async", function () {
-            do {
-    	        tree.flower(2);
-                $await(Jscex.Async.sleep(10));
-            } while (tree.canFlower());
-        }));
-
-        var moveAnimate = eval(Jscex.compile("async", function () {
-            tree.snapshot("p1", 240, 0, 610, 680);
-            while (tree.move("p1", 500, 0)) {
-                foot.draw();
-                $await(Jscex.Async.sleep(10));
-            }
-            foot.draw();
-            tree.snapshot("p2", 500, 0, 610, 680);
-
-            // 会有闪烁不得意这样做, (＞﹏＜)
-            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
-            canvas.css("background", "#ffe");
-            $await(Jscex.Async.sleep(300));
-            canvas.css("background", "none");
-        }));
-
-        var jumpAnimate = eval(Jscex.compile("async", function () {
-            var ctx = tree.ctx;
-            while (true) {
-                tree.ctx.clearRect(0, 0, width, height);
-                tree.jump();
-                foot.draw();
-                $await(Jscex.Async.sleep(25));
-            }
-        }));
-
-        var textAnimate = eval(Jscex.compile("async", function () {
-		    var together = new Date();
-		    together.setFullYear(2019, 11, 2); 			//时间年月日
-		    together.setHours(20);						//小时	
-		    together.setMinutes(0);					//分钟
-		    together.setSeconds(0);					//秒前一位
-		    together.setMilliseconds(2);				//秒第二位
-
-		    $("#code").show().typewriter();
-            $("#clock-box").fadeIn(500);
-            while (true) {
-                timeElapse(together);
-                $await(Jscex.Async.sleep(1000));
-            }
-        }));
-
-        var runAsync = eval(Jscex.compile("async", function () {
-            $await(seedAnimate());
-            $await(growAnimate());
-            $await(flowAnimate());
-            $await(moveAnimate());
-
-            textAnimate().start();
-
-            $await(jumpAnimate());
-        }));
-
-        runAsync().start();
-    })();
-    </script></body></html>
+	adjustCodePosition();
+	$("#code").typewriter();
+}
+</script>
+</body>
+</html>
